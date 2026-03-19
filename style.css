@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: url("images/bg.png") no-repeat center center;
+  background-size: cover;
+  background-color: black;
+  color: white;
+}
+
+/* NAV */
+nav {
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
+}
+
+/* HERO */
+.hero {
+  padding: 80px 20px;
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+
+.tabs button {
+  padding: 10px;
+  border: none;
+  background: #222;
+  color: white;
+  border-radius: 10px;
+}
+
+.tabs .active {
+  background: cyan;
+  color: black;
+}
+
+/* TAB CONTENT */
+.tab-content {
+  display: none;
+  padding: 20px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* CARD */
+.card {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+/* GOKU */
+#goku {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 110px;
+  z-index: 999;
+  border-radius: 10px;
+  box-shadow: 0 0 15px cyan;
+}
+
+/* SKILL */
+#skill {
+  position: fixed;
+  height: 8px;
+  background: cyan;
+  box-shadow: 0 0 20px cyan;
+  display: none;
+}

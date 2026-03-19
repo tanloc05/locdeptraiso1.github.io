@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>LOC DEV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MUSIC -->
+<audio id="music" loop>
+  <source src="music/nhac.mp3" type="audio/mp3">
+</audio>
+
+<!-- NAV -->
+<nav>
+  <h2>TAN LOC DESIGN</h2>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>MÌNH LÀ LỘC ĐẸP TRAI NHẤT TG</h1>
+  <p>Frontend Developer | Freelancer</p>
+</section>
+
+<!-- TAB -->
+<div class="tabs">
+  <button onclick="showTab('Giới Thiệu')" class="active">Giới Thiệu</button>
+  <button onclick="showTab('Kĩ Năng')">Kĩ Năng</button>
+  <button onclick="showTab('contact')">Contact</button>
+</div>
+
+<div id="Giới Thiệu" class="tab-content active">
+  <h2>Giới Thiệu</h2>
+  <p>Mình chuyên về Website, Thiết Kế Đồ Họa.</p>
+</div>
+
+<div id="Kĩ Năng" class="tab-content">
+  <h2>Skills</h2>
+  <p>HTML, CSS, JavaScript</p>
+</div>
+
+<div id="contact" class="tab-content">
+  <h2>Contact</h2>
+  <p>Email: lokmazuong.info@gmail.com</p>
+</div>
+
+<!-- PROJECT -->
+<section class="section">
+  <h2>Projects</h2>
+  <div class="card">
+    <img src="images/project1.gif">
+    <h3>Anh Em Cu Chill Nha</h3>
+  </div>
+</section>
+
+<!-- GOKU VIDEO -->
+<video id="goku" autoplay loop muted playsinline webkit-playsinline>
+  <source src="images/goku.mp4" type="video/mp4">
+  <!-- fallback -->
+  <img src="images/goku.png">
+</video>
+
+<div id="skill"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
